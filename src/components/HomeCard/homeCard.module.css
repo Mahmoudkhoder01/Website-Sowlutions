@@ -1,0 +1,38 @@
+.wholeCard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ratio {
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100%;
+}
+
+.ratio:hover {
+    cursor: pointer;
+}
+
+.productTitle{
+    height: 60px;
+}
+
+.price{
+    padding-top: 5px;
+    width: 60%;
+    text-align: center;
+}

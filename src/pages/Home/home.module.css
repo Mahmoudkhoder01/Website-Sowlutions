@@ -1,0 +1,21 @@
+.gridCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    margin-top: 5rem;
+    margin-left: 9rem;
+}
+
+.listPagination {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.listPagination li{
+    margin-left: 2rem;
+    cursor: pointer;
+}
